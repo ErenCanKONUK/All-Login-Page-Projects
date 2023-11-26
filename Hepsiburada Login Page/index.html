@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Üye Giriş Sayfası & Üye Ol - Hepsiburada</title>
+    <link rel="shortcut icon" href="/assets/img/public/favicon.ico">
+
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body class="flex justify-center align-center w-100 flex-d-column">
+
+    <header class="header">
+        <a href="javascript:;">
+            <img src="/assets/img/public/logo.svg" alt="Hepsiburada logo">
+        </a>
+    </header>
+
+    <section class="form-container">
+        <div class="tab-container">
+            <ul class="tabs list-unstyled flex justify-space-around">
+                <li class="tab-item active" data-id="login">
+                    Giriş yap
+                </li>
+                <li class="tab-item" data-id="register">
+                    Üye ol
+                </li>
+            </ul>
+        </div>
+
+        <div class="form-content active" id="login">
+            <form action="javascript:;" method="POST" class="form" id="loginForm">
+                <div class="row">
+                    <input type="text" name="email" placeholder="E-posta adresi" class="input" autocomplete="off"
+                        required data-msg-required="E-posta adresinizi girmelisiniz." my-email="true"
+                        data-msg-my-email="Geçerli bir e-posta adresi girmelisiniz.">
+                    <div class="error-content"></div>
+                </div>
+                <div class="row icon-content">
+                    <input type="password" name="password" id="login_password" placeholder="Şifre" class="input"
+                        autocomplete="off" required data-msg-required="Şifrenizi girmelisiniz.">
+                    <span class="icon password-visible" data-target="#login_password"></span>
+                    <div class="error-content"></div>
+                </div>
+
+                <div class="row mt-30">
+                    <button type="submit" class="button">
+                        Giriş Yap
+                    </button>
+                </div>
+            </form>
+
+            <div class="row mt-20">
+                <a href="javascript:;" class="forgot-password">
+                    Şifremi unuttum
+                </a>
+            </div>
+        </div>
+
+        <div class="form-content" id="register">
+            <div class="form-title">
+                <div class="text">
+                    E-posta adresi ile üye ol
+                </div>
+            </div>
+            <form action="javascript:;" method="POST" class="form" id="registerForm">
+                <div class="row columns">
+                    <div class="column">
+                        <input type="text" name="firstname" placeholder="Ad" class="input" required
+                            data-msg-required="Adınızı girmelisiniz." maxlength="24">
+                        <div class="error-content"></div>
+                    </div>
+                    <div class="column">
+                        <input type="text" name="lastname" placeholder="Soyad" class="input" required
+                            data-msg-required="Soyadınızı girmelisiniz." maxlength="24">
+                        <div class="error-content"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input type="text" name="email" placeholder="E-posta adresi" class="input" autocomplete="off"
+                        required data-msg-required="E-posta adresinizi girmelisiniz." my-email="true"
+                        data-msg-my-email="Geçerli bir e-posta adresi girmelisiniz.">
+                    <div class="error-content"></div>
+                </div>
+
+                <div class="row icon-content mb-0">
+                    <input type="password" name="password" id="register_password" placeholder="Şifre" class="input"
+                        autocomplete="off" required data-msg-required="Şifre belirleyin." maxlength="14"
+                        data-msg-minlength="En fazla 14 karakter girmelisiniz" minlength="8"
+                        data-msg-minlength="En az 8 karakter girmelisiniz" my-password="true" ,
+                        data-msg-my-password="Şifreniz rakam, harf ve en az 8 karakter içermelidir.">
+                    <span class="icon password-visible" data-target="#register_password"></span>
+                    <div class="error-content"></div>
+                </div>
+
+                <div class="row flex terms-content">
+                    <input type="checkbox" name="terms" id="terms" class="checkbox" required>
+                    <label for="terms" class="label">
+                        Önemli kampanyalardan haberdar olmak için <a href="javascript:;" target="_blank">Rıza Metni</a>
+                        kapsamında elektronik ileti almak istiyorum.
+                    </label>
+                </div>
+
+                <div class="row mt-20">
+                    <button type="submit" class="button" disabled>
+                        Üye ol
+                    </button>
+                </div>
+            </form>
+            <p class="fs-12 register-info-text">
+                Kişisel verileriniz, <a href="javascript:;"><b>Aydınlatma Metni</b></a> kapsamında işlenmektedir. “Üye
+                ol” veya “Sosyal Hesap” butonlarından birine basarak <a href="javascript:;"><b>Üyelik Sözleşmesi</b></a>
+                ’ni, <a href="javascript:;"><b>Rıza Metni</b></a>’ni, <a href="javascript:;"><b>Çerez
+                        Politikası</b></a>’nı okuduğunuzu ve kabul ettiğinizi onaylıyorsunuz.
+            </p>
+        </div>
+    </section>
+
+    <script src="/assets/js/plugins/jquery.min.js"></script>
+    <script src="/assets/js/plugins/jquery.validate.min.js"></script>
+    <script src="/assets/js/form.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,286 @@
+:root {
+    --white-color: #fff;
+    --grey-color: #eee;
+    --dark-grey-color: #aaa;
+    --black-color: #555;
+    --orange-color: #ff6000;
+    --red-color: #ff0000;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+    color: var(--orange-color);
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-d-column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-space-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.mt-20 {
+    margin-top: 20px !important;
+}
+
+.mt-30 {
+    margin-top: 30px !important;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.form-container {
+    background: var(--white-color);
+    border: 1px solid var(--grey-color);
+    max-width: 500px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 60px;
+    margin: 15px;
+}
+
+.form-container .tab-container {
+    width: 100%;
+    background: var(--grey-color);
+    border-radius: 10px;
+}
+
+.form-container .tab-container .tab-item {
+    padding: 10px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2px;
+    color: var(--black-color);
+}
+
+.form-container .tab-container .tab-item.active {
+    background: var(--white-color);
+}
+
+.form-container .form-content {
+    margin-top: 20px;
+    display: none;
+}
+
+.form-container .form-content .forgot-password {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.form-container .form-content .register-info-text a {
+    color: var(--black-color);
+    text-decoration: underline;
+}
+
+.form-container .form-content.active {
+    display: block;
+}
+
+.form-container .form-content .row {
+    margin-bottom: 15px;
+}
+
+.form-container .form-content .columns {
+    display: flex;
+}
+
+.form-container .form-content .column {
+    margin: 0 5px;
+    width: 100%;
+}
+
+.form-container .form-content .column:first-child{
+    margin-left: 0;
+}
+
+.form-container .form-content .column:last-child {
+    margin-right: 0;
+}
+
+.form-container .form-content .input {
+    background: var(--grey-color);
+    border: 0;
+    outline: 1px;
+    padding: 20px 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid var(--grey-color);
+}
+
+.form-container .form-content .icon-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.form-container .form-content .icon-content .input {
+    padding-right: 50px;
+}
+
+.form-container .form-content .icon-content .icon {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: var(--dark-grey-color);
+}
+
+.form-container .form-content .icon-content .icon.password-visible::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f06e";
+}
+
+.form-container .form-content .icon-content .icon.password-visible.active::after {
+    content: "\f070";
+}
+
+.form-container .form-content .button {
+    background: var(--orange-color);
+    color: var(--white-color);
+    border: 0;
+    outline: 1px;
+    padding: 20px 15px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container .form-content .button:disabled {
+    background: var(--dark-grey-color);
+    color: var(--black-color);
+    cursor: not-allowed;
+}
+
+.form-container .form-content .form-title {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: var(--black-color);
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    z-index: 2;
+}
+
+.form-container .form-content .form-title .text {
+    background: var(--white-color);
+    display: inline-block;
+    padding-right: 30px;
+}
+
+.form-container .form-content .form-title:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background: var(--grey-color);
+    height: 2px;
+    width: 100%;
+}
+
+.form-container .form-content .terms-content {
+    margin-top: 8px;
+}
+
+.form-container .form-content .terms-content .checkbox {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.form-container .form-content .terms-content .label {
+    margin-top: 5px;
+}
+
+.form-container .form-content .terms-content .label a {
+    color: var(--black-color);
+    font-weight: bold;
+}
+
+.form-container .form-content .errRow .input {
+    border-color: var(--red-color);
+}
+
+.form-container .form-content .errRow .label,
+.form-container .form-content .errRow .label a {
+    color: var(--red-color);
+}
+
+.form-container .form-content .errRow .error-content {
+    padding-top: 2px;
+    padding-left: 10px;
+    color: var(--red-color);
+    font-size: 12px;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding: 10px;
+    }
+
+    .form-container {
+        padding: 10px;
+        border: 0;
+    }
+}
