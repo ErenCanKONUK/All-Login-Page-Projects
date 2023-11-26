@@ -1,0 +1,268 @@
+body {
+    font-size: 14px;
+    line-height: 18px;
+    height: 100%;
+    overflow-y: scroll;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    justify-content: center;
+  }
+  
+  input {
+    line-height: 18px;
+  }
+  
+  div article main footer nav section label {
+    align-items: stretch;
+    border: 0 solid #000;
+    display: flex;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  form {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  #react-root body html {
+    z-index: 0;
+    height: 100%;
+  }
+  
+  .ig-section-1 {
+    min-height: 100%;
+    overflow: hidden;
+  }
+  
+  .the-main {
+    background-color: red;
+    justify-content: center;
+    flex-grow: 1;
+    order: 4;
+  }
+  
+  .the-outer-1 {
+    min-height: 100%;
+    overflow: hidden;
+    padding-bottom: 44px;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    background-color: #fafafa;
+  }
+  
+  .the-outer-2 {
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .the-center-strip-container {
+    color: #262626;
+    margin-top: 120px;
+    padding-top: 50px;
+  }
+  
+  .login-elements {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    justify-content: center;
+  }
+  
+  .ig-logo {
+    margin: 22px auto 12px;
+    max-height: 70%;
+    max-width: 70%;
+    display: block;
+    overflow: hidden;
+    text-indent: 110%;
+  }
+  
+  .login-forms-container {
+    margin-bottom: 10px;
+  }
+  
+  .login-forms {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .username-password-container {
+    display: flex;
+    margin: 0 40px 6px;
+    align-items: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #efefef;
+    flex-direction: row;
+    font-size: 14px;
+    position: relative;
+    background-color: #fafafa;
+  }
+  
+  .username-password-container-2 {
+    height: 36px;
+    flex: 1 0 0;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .label {
+    color: #999;
+    height: 36px;
+    font-size: 12px;
+    height: 36px;
+    left: 8px;
+    position: absolute;
+    right: 0;
+    transform-origin: left;
+    overflow: hidden;
+  }
+  
+  .username-password-input {
+    background-color: #fafafa;
+    font-size: 16px;
+    border: 0px;
+    flex: 1px 0 0;
+    margin: 0;
+    outline: 0;
+    padding: 9px 0 7px 8px;
+    overflow: ellipses;
+  }
+  
+  .login-button {
+    margin: 8px 40px;
+    display: block;
+    position: relative;
+  }
+  
+  .button {
+    padding: 0 12px;
+    background-color: #3897f0;
+    border-color: #3897f0;
+    line-height: 26px;
+    color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    width: 100%;
+    opacity: .3;
+    font-size: 14px;
+    font-weight: 600px;
+    overflow: hidden;
+  }
+  
+  .forgot-password {
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #003569;
+    text-decoration: none;
+  }
+  
+  .sign-up {
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+  }
+  
+  .sign-up-p {
+    text-align: center;
+    margin: 15px;
+    color: #262626;
+    font-size: 14px;
+  }
+  
+  .sign-up-a {
+    color: #3897f0;
+    text-decoration: none;
+  }
+  
+  .get-the-app-p {
+    text-align: center;
+    color: #262626;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px; 
+  }
+  
+  .android-google-container {
+    flex-direction: row;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .app-img {
+    margin-right: 8px;
+  }
+  
+  .app-img-1 {
+    height: 40px;
+  }
+  
+  .the-footer {
+    order: 5;
+    padding: 0 20px;
+    background-color: #fafafa;
+  }
+  
+  .footer-container {
+    font-size: 12px;
+    font-weight: 600px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 38px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .nav-links-aria {
+    max-width: 100%;
+  }
+  
+  .nav-links {
+    flex-grow: 1;
+    margin-bottom: 3px;
+    margin-right: 16px;
+  }
+  
+  .footer-link {
+    margin-right: 16px;
+    margin-bottom: 7px;
+    display: inline-block;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #003569;
+    font-family: sans-serif;
+  }
+  
+  .copyright {
+    color: #999;
+  }
