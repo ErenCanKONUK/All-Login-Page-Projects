@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Registration Form</title>
+  <!---CSS Bağlantısı--->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Logo -->
+
+    <div class="headerlogo">
+        <img src="/img/logo.png" alt="Logo" class="logo">
+    </div>
+
+    <!-- Logo -->
+
+
+    <!-- Giriş -->
+
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Sign In</header>
+      <form action="#">
+        <input type="text" placeholder="E-mail *">
+        <input type="password" placeholder="Password *">
+        <input type="button" class="button" value="Login">
+        <a class="forgotpass" href="#">Forgot password?</a>
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Sign Up</label>
+        </span>
+      </div>
+    </div>
+
+    <!-- Kayıt Ol -->
+
+    <div class="registration form">
+      <header>Sign Up</header>
+      <form action="#">
+        <input type="text" placeholder="Name *">
+        <input type="text" placeholder="Email *">
+        <input type="password" placeholder="Password *">
+        <input type="password" placeholder="Confirm your password *">
+        <!-- Checkbox -->
+        <div class="checkbox-container">
+            <input type="checkbox" id="checkbox" name="checkbox">
+        </div>
+        <!-- Checkbox -->
+        <input type="button" class="button" value="Register">
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
