@@ -6,12 +6,13 @@
 
 Log In :
 
-![image](https://github.com/ErenCanKONUK/All-Login-Page-Projects/assets/97176491/1b50755e-4c89-4673-aebf-4b6a9f5cbc84)
+![image](https://github.com/ErenCanKONUK/All-Login-Page-Projects/assets/97176491/16e63b38-7458-4062-b21c-d4880b510f3a)
 
 Register : 
 
-![image](https://github.com/ErenCanKONUK/All-Login-Page-Projects/assets/97176491/2086dc63-624f-479a-b9bc-6e0029cb0667)
+![image](https://github.com/ErenCanKONUK/All-Login-Page-Projects/assets/97176491/8326c879-02b1-4e15-8c2b-5824de72e879)
 
 Geçiş Animasyonu :
 
-![image](https://github.com/ErenCanKONUK/All-Login-Page-Projects/assets/97176491/47407154-9ed5-4897-8b5c-aaa74aed56d2)
+![image](https://github.com/ErenCanKONUK/All-Login-Page-Projects/assets/97176491/17f07688-4892-4952-9066-784a66989264)
+
